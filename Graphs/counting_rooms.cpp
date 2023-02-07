@@ -27,8 +27,6 @@ int n, m;
 bool isValid(int x , int y)
 {
 	if(x < 1 || x > n || y < 1 || y > m) return false;
-	
-	
 	return true;
 }
 
